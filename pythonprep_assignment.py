@@ -50,6 +50,6 @@ if __name__ == "__main__":
     number_list = break_file_data_into_list_of_numbers(data)
 
     ## ------ sum the list -------
-    # TODO: Add code to sum the list
+    # TODO: Add code to sum the list - and save to variable sum_of_numbers
 
     print(sum_of_numbers)
