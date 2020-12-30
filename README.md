@@ -5,8 +5,16 @@ It is a Python exercise designed to test some basic Python skills.
 Our training course includes Python programming and the student needs to be
 able to program in it.
 
-Please refer to the Lecture Notes (or Video) for the Python Prep unit for
-background on "Months" and "Days."
+There are two small code changes that you need to make. First, add code 
+to define a list containing the names of the  months in a year. Please use 
+three-character month names, like "Jan" for January.  Please call it "Months".
+
+Then, add code to define a dictionary containing the days of the
+month for your current year. Please use three-character month names, like
+"Jan" for "January". Please call it "Days".
+
+After these two additions, the program computes the number of months in a year
+which have 30 days.
 
 To run your program at the command line, 
 
