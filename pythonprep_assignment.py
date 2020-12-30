@@ -39,5 +39,5 @@ if __name__ == "__main__":
 
     Months, Days = define_objects()
 
-    num30 = compute_30_day_months(Months, Days)
+    num_30 = compute_30_day_months(Months, Days)
     print(num_30)
