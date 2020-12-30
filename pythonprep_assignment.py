@@ -12,16 +12,29 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# TODO:  Add code here to define a list containing the names of the
-# months. Please use three-character month names, like "Jan" for January.
-# Please call it "Months".
+def define_objects():
 
-# TODO: Add code here to define a dictionary containing the days of the
-# month for your current year. Please use three-character month names, like
-# "Jan" for "January". Please call it "Days".
+    # TODO:  Add code here to define a list containing the names of the
+    # months. Please use three-character month names, like "Jan" for January.
+    # Please call it "Months".
 
-num_30 = 0
-for Month in Months:
-    if Days[Month] == 30:
-        num_30 += 1
-print(num_30)
+    Months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+
+    # TODO: Add code here to define a dictionary containing the days of the
+    # month for your current year. Please use three-character month names, like
+    # "Jan" for "January". Please call it "Days".
+
+    Days = {'Jan': 31, 'Feb': 28, 'Mar': 31, 'Apr': 30, 'May': 31, 'Jun': 30, 'Jul': 31, 'Aug': 31, 'Sep': 30, 'Oct': 31, 'Nov': 30, 'Dec': 31}
+
+    return Months, Days
+
+## ------- Main program -------
+if __name__ == "__main__":
+
+    Months, Days = define_objects()
+
+    num_30 = 0
+    for Month in Months:
+        if Days[Month] == 30:
+            num_30 += 1
+    print(num_30)
