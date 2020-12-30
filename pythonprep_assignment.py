@@ -18,21 +18,26 @@ def define_objects():
     # months. Please use three-character month names, like "Jan" for January.
     # Please call it "Months".
 
-
     # TODO: Add code here to define a dictionary containing the days of the
     # month for your current year. Please use three-character month names, like
     # "Jan" for "January". Please call it "Days".
 
-
     return Months, Days
 
-## ------- Main program -------
-if __name__ == "__main__":
 
-    Months, Days = define_objects()
+def compute_30_day_months(Months, Days):
 
     num_30 = 0
     for Month in Months:
         if Days[Month] == 30:
             num_30 += 1
+    return num_30
+
+
+# ------- Main program -------
+if __name__ == "__main__":
+
+    Months, Days = define_objects()
+
+    num30 = compute_30_day_months(Months, Days)
     print(num_30)
