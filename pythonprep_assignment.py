@@ -12,44 +12,32 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+def define_objects():
 
-# TODO:  Add code here to read the file into a string
-def read_file_into_string(filename):
-    """Returns a string with the file's contents
+    # TODO:  Add code here to define a list containing the names of the
+    # months. Please use three-character month names, like "Jan" for January.
+    # Please call it "months".
 
-    Args:
-        filename(string): name of the file to open
-    """
+    # TODO: Add code here to define a dictionary containing the days of the
+    # month for your current year. Please use three-character month names, like
+    # "Jan" for "January". Please call it "days".
 
-    # TODO: Add code to read the file into a string
-
-    return data
-
-
-# TODO:  Add code here to break the string into a list of numbers
-def break_file_data_into_list_of_numbers(string_data):
-    """Returns a list with the numbers in the file
-
-    Args:
-        string_data(string): list of numbers to be parsed
-    """
-
-    # TODO: Add code to split the string
-
-    return number_list
+    return months, days
 
 
-## ------- Main program -------
+def compute_30_day_months(months, days):
+
+    num_30 = 0
+    for month in months:
+        if days[month] == 30:
+            num_30 += 1
+    return num_30
+
+
+# ------- Main program -------
 if __name__ == "__main__":
 
-    ## ------- read file into a string --------
+    months, days = define_objects()
 
-    data = read_file_into_string("Numbers_Assignment_PP.txt")
-
-    ## ------ parse string into list -------
-    number_list = break_file_data_into_list_of_numbers(data)
-
-    ## ------ sum the list -------
-    # TODO: Add code to sum the list - and save to variable sum_of_numbers
-
-    print(sum_of_numbers)
+    num_30 = compute_30_day_months(months, days)
+    print(num_30)
