@@ -1,8 +1,7 @@
 # Python Prep
 
-The program ``python_prep.py`` is an exercise for students. It is a Python
-exercise designed to test some basic Python skills. Our training course
-includes Python programming and the student needs to be able to program in it.
+This set of exercises is to help review some of the basic Python skills
+required in our course.
 
 To run your program at the command line, type:
 
