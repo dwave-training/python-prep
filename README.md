@@ -1,13 +1,13 @@
 # Python Prep
 
-The program ``pythonprep.py`` is an exercise for students. It is a Python
+The program ``python_prep.py`` is an exercise for students. It is a Python
 exercise designed to test some basic Python skills. Our training course
 includes Python programming and the student needs to be able to program in it.
 
 To run your program at the command line, type:
 
 ```bash
-python pythonprep.py 
+python python_prep.py 
 ```
 
 If you're running in the Leap IDE simply click the green triangle in the top
