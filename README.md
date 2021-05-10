@@ -5,9 +5,7 @@ required in our course.
 
 To run your program at the command line, type:
 
-```bash
-python python_prep.py 
-```
+`python pythonprep.py`
 
 If you're running in the Leap IDE simply click the green triangle in the top
 right.
@@ -16,22 +14,31 @@ There are three parts to this review assignment.
 
 ## Exercise 1
 
-The function `exercise_1` requires the student to add up the numbers provided
-in the list S. This must be done using a for-loop, and the sum should be
-returned by the function.
+In `exercise_1`, add up the numbers provided in the list S. This must be done
+using a for-loop, and the sum should be returned by the function.
 
 ## Exercise 2
 
-The function `exercise_2` requires the student to add up the numbers provided
-in the list S *using at most two lines of code*. The sum should be returned by
-the function.
+In `exercise_2`, add up the numbers provided in the list S *using at most two
+lines of code*. The sum should be returned by the function.
 
 ## Exercise 3
 
-The function `exercise_3` requires the student to create a dictionary with the
-months of the year as keys and the number of days in each month as the values.
-Keys should be the first 3 letters of the month and in all capital letters. For
-example, `JAN` for January. The dictionary should be returned by the function.
+In `exercise_3`, create a dictionary to store the values for the following list
+of points when input to the function `f(x,y) = 8x + 3y`. For example, if your
+dictionary is called `f` you should have an entry `f[(0,0)] = 0` and an entry
+`f[(1,1)] = 11`, and so on.
+
+Points to include:
+
+- (0, 0)
+- (1, 1)
+- (2, 2)
+- (3, 3)
+- (4, 4)
+- (5, 5)
+
+Hint: Consider using a for-loop to run through the list of points.
 
 ## License
 
