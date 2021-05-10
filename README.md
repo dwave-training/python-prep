@@ -27,7 +27,7 @@ lines of code*. The sum should be returned by the function.
 In `exercise_3`, create a dictionary to store the values for the following list
 of points when input to the function `f(x,y) = 8x + 3y`. For example, if your
 dictionary is called `f` you should have an entry `f[(0,0)] = 0` and an entry
-`f[(1,1)] = 11`, and so on.
+`f[(1,1)] = 11`, and so on. The dictionary should be returned by the function.
 
 Points to include:
 
