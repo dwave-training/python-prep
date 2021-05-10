@@ -27,8 +27,8 @@ def exercise_2(S):
 def exercise_3():
 
     # TODO: Build a dictionary with:
-    #  - keys: months of the year (first 3 letters, all caps)
-    #  - values: number of days in the given month
+    #  - keys: tuple of points (x, y)
+    #  - values: value of function f = 8x + 3y
 
     return 
 
@@ -46,6 +46,6 @@ if __name__ == "__main__":
     print("\tSum:", ex_sum)
 
     print("\nExercise 3:")
-    months = exercise_3()
-    for key, val in months.items():
-        print("\tMonth:", key, "Days:", val)
+    f = exercise_3()
+    for key, val in f.items():
+        print("\tInput:", key, "Output:", val)
