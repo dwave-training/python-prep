@@ -5,7 +5,7 @@ required in our course.
 
 To run your program at the command line, type:
 
-`python pythonprep.py`
+`python python_prep.py`
 
 If you're running in the Leap IDE simply click the green triangle in the top
 right.
