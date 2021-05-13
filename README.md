@@ -1,32 +1,44 @@
 # Python Prep
 
-The program ``pythonprep_assignment.py`` is an exercise for students.
-It is a Python exercise designed to test some basic Python skills.
-Our training course includes Python programming and the student needs to be
-able to program in it.
+This set of exercises is to help review some of the basic Python skills
+required in our course.
 
-There are two small code changes that you need to make. First, add code 
-to define a list containing the names of the  months in a year. Please use 
-three-character month names, like "Jan" for January.  Please call it "months".
+To run your program at the command line, type:
 
-Then, add code to define a dictionary containing the days of the
-month for your current year. Please use three-character month names, like
-"Jan" for "January". Please call it "days".
+`python pythonprep.py`
 
-After these two additions, the program computes the number of months in a year
-which have 30 days.
+If you're running in the Leap IDE simply click the green triangle in the top
+right.
 
-To run your program at the command line, 
+There are three parts to this review assignment.
 
-```bash
-python pythonprep_assignment.py
-```
+## Exercise 1
 
-If you're running in the Leap IDE, open a Terminal, and then run this command.
+In `exercise_1`, add up the numbers provided in the list S. This must be done
+using a for-loop, and the sum should be returned by the function.
 
-You have 
-successfully completed the exercise when you are able to see output showing 
-a total of 4.
+## Exercise 2
+
+In `exercise_2`, add up the numbers provided in the list S *using at most two
+lines of code*. The sum should be returned by the function.
+
+## Exercise 3
+
+In `exercise_3`, create a dictionary to store the values for the following list
+of points when input to the function `f(x,y) = 8x + 3y`. For example, if your
+dictionary is called `f` you should have an entry `f[(0,0)] = 0` and an entry
+`f[(1,1)] = 11`, and so on. The dictionary should be returned by the function.
+
+Points to include:
+
+- (0, 0)
+- (1, 1)
+- (2, 2)
+- (3, 3)
+- (4, 4)
+- (5, 5)
+
+Hint: Consider using a for-loop to run through the list of points.
 
 ## License
 
