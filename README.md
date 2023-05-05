@@ -1,3 +1,7 @@
+[![Open in Leap IDE](	
+	https://cdn-assets.cloud.dwavesys.com/shared/latest/badges/leapide.svg)](
+	https://ide.dwavesys.io/#https://github.com/dwave-training/python-prep)
+
 # Python Prep
 
 This set of exercises is to help review some of the basic Python skills
