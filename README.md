@@ -7,13 +7,6 @@
 This set of exercises is to help review some of the basic Python skills
 required in our course.
 
-To run your program at the command line, type:
-
-`python python_prep.py`
-
-If you're running in the Leap IDE simply click the green triangle in the top
-right.
-
 There are three parts to this review assignment.
 
 ## Exercise 1
